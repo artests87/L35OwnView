@@ -4,23 +4,40 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#000000">
-
+<!--
     <com.example.artests.l35ownview.MyWidgetView
         android:id="@+id/mywidget1"
         android:layout_width="500dp"
-        android:layout_height="50dp"
+        android:layout_height="250dp"
         android:layout_margin="5dp" />
 
     <com.example.artests.l35ownview.MyWidgetView
         android:id="@+id/mywidget2"
         android:layout_width="500dp"
-        android:layout_height="50dp"
+        android:layout_height="250dp"
         android:layout_margin="5dp" />
 
     <com.example.artests.l35ownview.MyWidgetView
         android:id="@+id/mywidget3"
         android:layout_width="500dp"
-        android:layout_height="50dp"
+        android:layout_height="250dp"
+        android:layout_margin="5dp" />-->
+    <com.example.artests.l35ownview.CircleView
+        android:id="@+id/mywidget1"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:layout_margin="5dp" />
+
+    <com.example.artests.l35ownview.CircleView
+        android:id="@+id/mywidget2"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:layout_margin="5dp" />
+
+    <com.example.artests.l35ownview.CircleView
+        android:id="@+id/mywidget3"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
         android:layout_margin="5dp" />
 
 </LinearLayout>
