@@ -10,11 +10,12 @@ public class MainActivity extends AppCompatActivity {
     //private MyWidgetView mWidget1, mWidget2, mWidget3;
     private ShapeView mShapeView;
     private CircleView mWidget1, mWidget2, mWidget3;
+    private LineView mLineView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mShapeView = (ShapeView) findViewById(R.id.shapeView);
+        //mShapeView = (ShapeView) findViewById(R.id.shapeView);
         //TouchCircle touchCircle = new TouchCircle(this);
         //setContentView(touchCircle);
         /*mWidget1 = (MyWidgetView)findViewById(R.id.mywidget1);
